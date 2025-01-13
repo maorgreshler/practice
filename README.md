@@ -8,7 +8,7 @@
 
 ## Overview
 
-This is the official repository for **SLowcalSGD**, as presented in the paper **"Slow Query Points Improve Local-SGD for Stochastic Convex Optimization"**, accepted at **NeurIPS 2024**.
+This is the official repository for **SLowcalSGD**, as presented in the paper **"SLowcal-SGD: Slow Query Points Improve Local-SGD for Stochastic Convex Optimization"**, accepted at **NeurIPS 2024**.
 
 This repository contains the implementation of SLowcalSGD, along with code for training, evaluation, and reproduction of the results presented in the paper.
 
