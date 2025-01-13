@@ -37,8 +37,6 @@ class Trainer:
 
         # Store training parameters and initialize paths
         self.params = params.__dict__
-        self.param_shapes = [p.shape for p in model.parameters()]
-        self.split_sizes = [torch.prod(torch.tensor(shape)).item() for shape in self.param_shapes]
         self.checkpoint_path = None
         self.log_file_path = None
         self.run_directory = "./"
