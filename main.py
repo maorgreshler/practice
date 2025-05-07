@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 from slowcal_sgd.utils import set_seed, get_device, split_dataset
 from slowcal_sgd.worker import Worker
 from slowcal_sgd.trainer import TRAINER_REGISTRY
-
+import json
 
 def parse_arguments():
     """Parses command-line arguments for the training script."""
