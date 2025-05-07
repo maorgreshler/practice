@@ -7,7 +7,7 @@ from slowcal_sgd.utils import set_seed, get_device, split_dataset
 from slowcal_sgd.worker import Worker
 from slowcal_sgd.trainer import TRAINER_REGISTRY
 
-
+# first first comment 
 def parse_arguments():
     """Parses command-line arguments for the training script."""
     parser = argparse.ArgumentParser(description="Training script for synchronous Byzantine machine learning.")
