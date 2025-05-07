@@ -8,6 +8,7 @@ from slowcal_sgd.worker import Worker
 from slowcal_sgd.trainer import TRAINER_REGISTRY
 import json
 
+# first first comment 
 def parse_arguments():
     """Parses command-line arguments for the training script."""
     parser = argparse.ArgumentParser(description="Training script for synchronous Byzantine machine learning.")
